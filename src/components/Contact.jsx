@@ -28,13 +28,13 @@ function Contact({ isOn}) {
         throw new Error('Failed to send message. Please try again later.');
       }
   
-      // Check if response body is empty
+  
       const text = await res.text();
       if (!text) {
         throw new Error('Empty response from the server.');
       }
   
-      // Parse JSON
+     
       const json = JSON.parse(text);
   
       if (json.status) {
@@ -44,7 +44,7 @@ function Contact({ isOn}) {
       console.log(json);
     } catch (error) {
       console.error(error);
-      // Handle error (e.g., show error message to the user)
+    
     }
   };
   
