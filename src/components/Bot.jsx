@@ -20,7 +20,6 @@ function Bot({isOn}) {
     // Decode the Uint8Array to text
     const text = decoder.decode(uint8Array);
 
-    console.log(chat);
     useEffect(()=>{
 
         setChat([...chat, { text: text }]);
@@ -50,7 +49,7 @@ function Bot({isOn}) {
 
     const fetchBotReply = async (userInput) => {
         try {
-            const res = await fetch('https://chatbot-backend-1-uwvp.onrender.com/api/v1/getresult', {
+            const res = await fetch('https://chat-bot-backend-seven.vercel.app/api/v1/getresult', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
