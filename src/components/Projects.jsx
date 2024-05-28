@@ -30,7 +30,7 @@ function Projects() {
                   </ul>
                 </div>
                 <div className='w-full md:w-4/5 xl:w-4/5 lg:w-4/5 mt-5 bg-green-300'>
-                  <button className='w-full md:w-full h-12 md:h-16 bg-red-500 text-lg font-bold uppercase'><a href="https://portfolio-vivek-gaur.vercel.app/">View project</a></button>
+                  <button className='w-full md:w-full h-12 md:h-16 bg-red-500 text-lg font-bold uppercase'><a href="https://colorpalettegenerate.vercel.app/">View project</a></button>
                 </div>
               </div>
             </div>

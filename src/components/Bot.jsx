@@ -43,7 +43,7 @@ function Bot({isOn}) {
         console.log('send button clicked');
         await fetchBotReply(userInput); 
 
-        // Clear input field
+        
         inputRef.current.value = '';
     };
 
